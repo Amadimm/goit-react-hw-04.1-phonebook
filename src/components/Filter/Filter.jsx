@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 export const Filter = filter => {
   const { onChange } = filter;
 
-  const handleInputChange = (e) => onChange(e.target.value);
+  const handleInputChange = e => onChange(e.target.value);
 
   return (
     <>
